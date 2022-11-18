@@ -1,0 +1,19 @@
+.primary {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #838383;
+  background-color: rgba(221, 221, 221, 0.1);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.secondary {
+  outline: none;
+  border: 1px solid var(--secondary);
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.108);
+  padding: 5px;
+}
+
+.main {
+}

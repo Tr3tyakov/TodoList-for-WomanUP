@@ -1,0 +1,27 @@
+.bubble{
+    position: relative;
+    overflow: hidden;
+    &__circle{
+        display: block;
+        position: absolute;
+        pointer-events: none;
+        background-color: rgba(255, 255, 255, 0.400);
+        border-radius: 50%;
+        animation: bubble 1s forwards;
+        z-index: 100;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@keyframes bubble {
+    0% {
+        opacity: 1;
+        transform: translate(-50%,-50%) scale(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-50%,-50%) scale(100);
+    }
+}

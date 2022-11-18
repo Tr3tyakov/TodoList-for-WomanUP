@@ -1,0 +1,12 @@
+.table {
+  &__img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+.table__row--disabled {
+  background: rgba(0, 0, 0, 0.662) !important;
+  pointer-events: none;
+}
